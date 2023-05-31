@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS For Beginners</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+     
+    </header>
+
+    <section class="container">
+      <form id="my-form">
+        <div class="msg"></div>
+        <div>
+            <label for="price">Selling Price:</label>
+            <input type="text" id="price">
+        </div>
+        <div>
+          <label for="name">Product Name:</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+            <label for="types">Choose A Category</label>
+            <select name="" id="types" >
+                <option value="electronic">Electronic</option>
+                <option value="food">Food</option>
+                <option value="skinCare">SkinCare</option>
+            </select>
+        </div>
+        
+       
+        <input id="btn" type="submit" value="Add Product">
+      </form>
+
+      <ul id="electronicItems">
+        <h1>Electronic Items</h1>
+      </ul>
+      <ul id="foodItems">
+        <h1>Food Items</h1>
+      </ul>
+      <ul id="skincareItems">
+        <h1>SkinCare Items</h1>
+      </ul>
+
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
